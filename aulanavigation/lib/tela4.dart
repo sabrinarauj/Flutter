@@ -5,6 +5,9 @@ class Tela4 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      backgroundColor: Colors.white,
+      appBar: AppBar(backgroundColor: Color(0xFF8A05BE), toolbarHeight: 100),
+    );
   }
 }

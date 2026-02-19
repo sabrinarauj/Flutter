@@ -26,15 +26,14 @@ class Tela1 extends StatelessWidget {
       backgroundColor: Colors.white,
       appBar: 
       AppBar(
-        backgroundColor: Colors.lightBlue,
-        leading: Icon(Icons.account_circle_rounded), leadingWidth: 100,
+        backgroundColor: Color(0xFF8A05BE),
         toolbarHeight: 100,
         ),
       body:Column(
         children: [
           TextButton(onPressed: (){
             Navigator.push(context, MaterialPageRoute(builder: (context) => Tela2()));
-          }, child: Text("Ir para a próxima"))
+          }, child: Text("Ir para formas de pagamento"))
         ],)
     );
   }
