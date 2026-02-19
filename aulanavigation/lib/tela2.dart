@@ -10,17 +10,17 @@ class Tela2 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
-      appBar: AppBar(backgroundColor: Color(0xFF8A05BE), toolbarHeight: 100),
+      appBar: AppBar(backgroundColor: Color(0xFF8A05BE), toolbarHeight: 200),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.spaceAround,
         children: [
           Text("Formas de Pagamento"),
           Center(
             child: Container(
-              height: 200,
-              width: 200,
+              height: 150,
+              width: 150,
               decoration: BoxDecoration(
-                color: Colors.white,
+                color: (Color(0xFFf0f1f5)),
                 borderRadius: BorderRadius.circular(100),
                 boxShadow: [
                   BoxShadow(
@@ -59,10 +59,10 @@ class Tela2 extends StatelessWidget {
 
           Center(
             child: Container(
-              height: 200,
-              width: 200,
+              height: 150,
+              width: 150,
               decoration: BoxDecoration(
-                color: Colors.white,
+                color: (Color(0xFFf0f1f5)),
                 borderRadius: BorderRadius.circular(100),
                 boxShadow: [
                   BoxShadow(
@@ -100,10 +100,10 @@ class Tela2 extends StatelessWidget {
 
           Center(
             child: Container(
-              height: 200,
-              width: 200,
+              height: 150,
+              width: 150,
               decoration: BoxDecoration(
-                color: Colors.white,
+                color: (Color(0xFFf0f1f5)),
                 borderRadius: BorderRadius.circular(100),
                 boxShadow: [
                   BoxShadow(

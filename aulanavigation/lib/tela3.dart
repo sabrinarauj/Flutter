@@ -7,7 +7,7 @@ class Tela3 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
-      appBar: AppBar(backgroundColor: Color(0xFF8A05BE), toolbarHeight: 100),
+      appBar: AppBar(backgroundColor: Color(0xFF8A05BE), toolbarHeight: 200),
       
     );
   }

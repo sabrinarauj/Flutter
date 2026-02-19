@@ -25,9 +25,9 @@ class Tela1 extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: 
-      AppBar(
+      AppBar(title: Text("Olá, Sabrina"), titleTextStyle: TextStyle(fontSize: 20, color: Colors.white),
         backgroundColor: Color(0xFF8A05BE),
-        toolbarHeight: 100,
+        toolbarHeight: 200,
         ),
       body:Column(
         children: [
