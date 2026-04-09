@@ -1,0 +1,33 @@
+{
+  "tasks": [
+    {
+      "id": "1",
+      "title": "Agradecer"
+    },
+    {
+      "id": "3",
+      "title": "Agradecer mais uma vez"
+    },
+    {
+      "id": "4",
+      "title": "Ser grato"
+    },
+    {
+      "id": "5",
+      "title": "Gratidao"
+    },
+    {
+      "title": "Ir para o SENAI",
+      "id": "9Cpbk8SWVms"
+    },
+    {
+      "title": "ui ui ui",
+      "id": "1bqXJ9X4K68"
+    },
+    {
+      "title": "ler a marca de atena",
+      "id": "6rzFMxmHrO8"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
